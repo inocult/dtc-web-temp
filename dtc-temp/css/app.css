@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Montserrat","Helvetica Neue","Arial",sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f9f7f2;
+  background-image:url(../img/bg.webp);
+  background-repeat: no-repeat;
+  background-position: top right;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, p{
+    font-family: "Montserrat","Helvetica Neue","Arial",sans-serif;
+}
+
+
+h1{
+    font-size:1.5rem;
+    color:#aa0000;
+    font-weight:900;
+}
+
+h2{
+    font-size:2rem;
+    font-weight:900;
+    color:#232d3d;
+}
+
+a{
+    color:#aa0000;
+}
+
+a:hover{
+    color:#232d3d;
+}
+
+.intro{
+    padding:3rem 0;
+    color:#232d3d;
+}
+
+.outro{
+    padding:3rem 0;
+    color:#232d3d;
+}
+
+.intro p{
+    font-size:1rem;
+}
+
+.outro p{
+    font-size:1rem;
+}
+
+.mission{
+    background-color:#232d3d;
+    padding:3rem 0;
+    color:#f9f7f2;
+}
+
+.vision h2, .mission h2{
+    color:#f9f7f2 !important;
+}
+
+.mission p{
+    font-size:1.5rem;
+}
+
+.vision{
+    background-color:#aa0000;
+    padding:3rem 0;
+    color:#f9f7f2;
+}
+
+.vision p{
+    font-size:1rem;
+}
+
+.callout{
+    padding-top:1.5rem;
+    width: 555px;
+height: 280px;
+box-shadow: 0 0 20px 0 rgba(124, 93, 17, 0.25);
+border-radius: 61px;
+background-color: rgba(249, 247, 242, 1);
+    border:0;
+}
+
+@media print, screen and (min-width: 40em) {
+    
+
+h1{
+    font-size:2rem;
+    color:#aa0000;
+    font-weight:900;
+}
+
+h2{
+    font-size:2.2rem;
+    font-weight:900;
+    color:#232d3d;
+}
+
+a{
+    color:#aa0000;
+}
+
+a:hover{
+    color:#232d3d;
+}
+
+.intro{
+    padding:5rem 0;
+    color:#232d3d;
+}
+
+.outro{
+    padding:5rem 0;
+    color:#232d3d;
+}
+
+.intro p{
+    font-size:1.2rem;
+}
+
+.outro p{
+    font-size:1.2rem;
+}
+
+.mission{
+    background-color:#232d3d;
+    padding:5rem 0;
+    color:#f9f7f2;
+}
+
+.vision h2, .mission h2{
+    color:#f9f7f2 !important;
+}
+
+.mission p{
+    font-size:2rem;
+}
+
+.vision{
+    background-color:#aa0000;
+    padding:5rem 0;
+    color:#f9f7f2;
+}
+
+.vision p{
+    font-size:1.2rem;
+}
+
+.callout{
+    padding-top:2rem;
+    width: 555px;
+height: 280px;
+box-shadow: 0 0 20px 0 rgba(124, 93, 17, 0.25);
+border-radius: 61px;
+background-color: rgba(249, 247, 242, 1);
+    border:0;
+}
+    
+}
